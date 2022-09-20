@@ -16,9 +16,35 @@ A nice RN Skeleton using Reanimated for better performance (WIP)
 
 ## Installation
 
+```sh
+yarn add @hadnet/react-native-skeleton
+```
 
 ```sh
 npm install @hadnet/react-native-skeleton
+```
+
+### Dependencies
+
+```sh
+  yarn add react-native-linear-gradient @react-native-masked-view/masked-view @react-native-reanimated
+```
+
+```sh
+  npm install react-native-linear-gradient @react-native-masked-view/masked-view @react-native-reanimated
+```
+
+##### add 'react-native-reanimated/plugin' to your babel.config.js file
+
+```json
+  plugins: [
+   // ...
+	'react-native-reanimated/plugin', // at the end
+]
+```
+
+```sh
+  cd ios && pod install && cd ..
 ```
 
 ## Usage
