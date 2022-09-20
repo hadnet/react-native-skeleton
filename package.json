@@ -47,6 +47,7 @@
   },
   "homepage": "https://github.com/hadnet/hadnet-react-native-skeleton#readme",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
@@ -100,9 +101,6 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "release-it": {
     "git": {
