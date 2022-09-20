@@ -1,6 +1,6 @@
 # @hadnet/react-native-skeleton
 
-A nice RN Skeleton using Reanimated for better performance (WIP)
+A nice RN Skeleton using Reanimated for better performance
 
 <div>
 <img src="https://user-images.githubusercontent.com/13828833/191178624-add635f7-d18a-4859-8d8b-62881047d9ca.gif" width="300" />
@@ -17,11 +17,11 @@ A nice RN Skeleton using Reanimated for better performance (WIP)
 ## Installation
 
 ```sh
-yarn add @hadnet/react-native-skeleton
+yarn add @hadnet/react-native-skeleton@alpha
 ```
 
 ```sh
-npm install @hadnet/react-native-skeleton
+npm install @hadnet/react-native-skeleton@alpha
 ```
 
 ### Dependencies
@@ -34,13 +34,13 @@ npm install @hadnet/react-native-skeleton
   npm install react-native-linear-gradient @react-native-masked-view/masked-view @react-native-reanimated
 ```
 
-##### add 'react-native-reanimated/plugin' to your babel.config.js file
+##### Add `'react-native-reanimated/plugin'` to your babel.config.js file
 
-```json
-  plugins: [
-   // ...
-	'react-native-reanimated/plugin', // at the end
-]
+```js
+plugins: [
+  // ...
+  'react-native-reanimated/plugin', // at the end
+];
 ```
 
 ```sh
@@ -68,7 +68,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.wrapper}>
-        <Skeleton animation="wave">
+        <Skeleton animation="wave" /* dark={true} */>
           <Col space={12}>
             <Row space={12}>
               <Box />
