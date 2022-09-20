@@ -2,7 +2,20 @@
 
 A nice RN Skeleton using Reanimated for better performance (WIP)
 
+<div>
+<img src="https://user-images.githubusercontent.com/13828833/191178624-add635f7-d18a-4859-8d8b-62881047d9ca.gif" width="300" />
+
+<img src="https://user-images.githubusercontent.com/13828833/191179861-f580ccde-eb38-4f65-8d3b-aa44dde2725c.gif" width="300" />
+</div>
+
+<div>
+<img src="https://user-images.githubusercontent.com/13828833/191179650-af1114fb-7b13-47ae-813c-081cdc497444.gif" width="300" />
+
+<img src="https://user-images.githubusercontent.com/13828833/191180338-94f10391-a6cf-44fe-9533-6c92688d2887.gif" width="300"/>
+</div>
+
 ## Installation
+
 
 ```sh
 npm install @hadnet/react-native-skeleton
