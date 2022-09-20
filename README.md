@@ -1,11 +1,11 @@
-# rn-skeleton
+# react-native-neo-skeleton
 
 A nice React Native Skeleton using Reanimated for better performance (WIP)
 
 ## Installation
 
 ```sh
-npm install rn-skeleton
+npm install react-native-neo-skeleton
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ import {
   Line,
   Row,
   Col,
-} from 'rn-skeleton';
+} from 'react-native-neo-skeleton';
 
 export default function App() {
   return (
