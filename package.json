@@ -1,5 +1,5 @@
 {
-  "name": "@hadnet/react-native-skeleton",
+  "name": "rn-skeleton",
   "version": "0.1.0.alpha.0",
   "description": "",
   "main": "lib/commonjs/index",
@@ -39,15 +39,14 @@
     "skeleton",
     "react-native-skeleton"
   ],
-  "repository": "https://github.com/hadnet/hadnet-react-native-skeleton",
+  "repository": "https://github.com/hadnet/react-native-skeleton",
   "author": "hadnet <hadnet1@gmail.com> (https://github.com/hadnet)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hadnet/hadnet-react-native-skeleton/issues"
+    "url": "https://github.com/hadnet/react-native-skeleton/issues"
   },
-  "homepage": "https://github.com/hadnet/hadnet-react-native-skeleton#readme",
+  "homepage": "https://github.com/hadnet/react-native-skeleton#readme",
   "publishConfig": {
-    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {

@@ -1,11 +1,11 @@
-# @hadnet/react-native-skeleton
+# rn-skeleton
 
-A nice RN Skeleton using Reanimated for better performance (WIP)
+A nice React Native Skeleton using Reanimated for better performance (WIP)
 
 ## Installation
 
 ```sh
-npm install @hadnet/react-native-skeleton
+npm install rn-skeleton
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ import {
   Line,
   Row,
   Col,
-} from '@hadnet/react-native-skeleton';
+} from 'rn-skeleton';
 
 export default function App() {
   return (
