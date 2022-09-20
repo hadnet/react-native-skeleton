@@ -26,14 +26,18 @@
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
-    "release": "release-it",
+    "release": "dotenv release-it",
+    "release:alpha": "dotenv yarn release-it --preRelease=alpha",
+    "release:beta": "dotenv yarn release-it --preRelease=beta",
     "example": "yarn --cwd example",
     "bootstrap": "yarn example && yarn && yarn example pods"
   },
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "skeleton",
+    "react-native-skeleton"
   ],
   "repository": "https://github.com/hadnet/hadnet-react-native-skeleton",
   "author": "hadnet <hadnet1@gmail.com> (https://github.com/hadnet)",
