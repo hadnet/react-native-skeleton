@@ -1,5 +1,7 @@
 # @hadnet/react-native-skeleton
-A beautiful RN Skeleton using Reanimated for better performance
+
+A nice RN Skeleton using Reanimated for better performance (WIP)
+
 ## Installation
 
 ```sh
@@ -8,12 +10,63 @@ npm install @hadnet/react-native-skeleton
 
 ## Usage
 
-```js
-import { multiply } from "@hadnet/react-native-skeleton";
+```tsx
+import * as React from 'react';
 
-// ...
+import { StyleSheet, View } from 'react-native';
+import {
+  Skeleton,
+  Circle,
+  Card,
+  Lines,
+  Box,
+  Line,
+  Row,
+  Col,
+} from '@hadnet/react-native-skeleton';
 
-const result = await multiply(3, 7);
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <View style={styles.wrapper}>
+        <Skeleton animation="wave">
+          <Col space={12}>
+            <Row space={12}>
+              <Box />
+              <Col space={8}>
+                <Line as="lines" n={2} />
+              </Col>
+            </Row>
+            <Col space={8}>
+              <Line />
+              <Line />
+            </Col>
+            <Row space={12}>
+              <Col space={8}>
+                <Line as="lines" n={2} />
+              </Col>
+              <Circle />
+            </Row>
+            <Card height={150} />
+            <Lines n={3} random />
+          </Col>
+        </Skeleton>
+      </View>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+  },
+  wrapper: {
+    width: '80%',
+  },
+});
 ```
 
 ## Contributing
