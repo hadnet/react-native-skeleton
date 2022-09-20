@@ -1,11 +1,15 @@
-# react-native-neo-skeleton
+# @hadnet/react-native-skeleton
 
 A nice React Native Skeleton using Reanimated for better performance (WIP)
 
 ## Installation
 
 ```sh
-npm install react-native-neo-skeleton
+ yarn add @hadnet/react-native-skeleton
+```
+
+```sh
+npm install @hadnet/react-native-skeleton
 ```
 
 ## Usage
@@ -23,7 +27,7 @@ import {
   Line,
   Row,
   Col,
-} from 'react-native-neo-skeleton';
+} from '@hadnet/react-native-skeleton';
 
 export default function App() {
   return (

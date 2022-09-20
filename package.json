@@ -1,5 +1,5 @@
 {
-  "name": "react-native-neo-skeleton",
+  "name": "@hadnet/react-native-skeleton",
   "version": "0.1.0",
   "description": "",
   "main": "lib/commonjs/index",
@@ -47,7 +47,8 @@
   },
   "homepage": "https://github.com/hadnet/react-native-skeleton#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.2",
