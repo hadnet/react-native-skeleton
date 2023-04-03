@@ -36,10 +36,10 @@ npm install @hadnet/react-native-skeleton
 
 ##### add 'react-native-reanimated/plugin' to your babel.config.js file
 
-```json
-  plugins: [
+```js
+plugins: [
    // ...
-	'react-native-reanimated/plugin', // at the end
+   'react-native-reanimated/plugin', // it's placed at the end
 ]
 ```
 
