@@ -2,6 +2,11 @@
 
 A nice RN Skeleton using Reanimated for better performance
 
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)]()
+![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-brightgreen.svg?style=for-the-badge&colorB=191A17)
+[![Version](https://img.shields.io/npm/v/@hadnet/react-native-skeleton.svg?style=for-the-badge)](https://www.npmjs.com/package/@hadnet/react-native-skeleton)
+[![npm](https://img.shields.io/npm/dt/@hadnet/react-native-skeleton.svg?style=for-the-badge)](https://www.npmjs.com/package/@hadnet/react-native-skeleton)
+
 <div>
 <img src="https://user-images.githubusercontent.com/13828833/191178624-add635f7-d18a-4859-8d8b-62881047d9ca.gif" width="300" />
 

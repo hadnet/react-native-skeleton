@@ -260,7 +260,7 @@ export function Lines({
 
 export function Row({
   children,
-  space = 12,
+  space = 0,
   center,
   end,
   ml,
@@ -289,7 +289,7 @@ export function Row({
 
 export function Col({
   children,
-  space = 4,
+  space = 0,
   center,
   end,
   mt,

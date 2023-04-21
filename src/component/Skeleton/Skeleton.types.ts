@@ -13,13 +13,13 @@ export type ShapeProps = Partial<{
   height: Unit;
   radius: number;
   size: number;
-  ml: number;
-  mr: number;
-  mt: number;
-  mb: number;
-  mx: number;
-  my: number;
-  space: number;
+  ml: Unit;
+  mr: Unit;
+  mt: Unit;
+  mb: Unit;
+  mx: Unit;
+  my: Unit;
+  space: Unit;
   dark: boolean;
 }>;
 
