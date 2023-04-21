@@ -38,9 +38,9 @@ npm install @hadnet/react-native-skeleton@alpha
 
 ```js
 plugins: [
-  // ...
-  'react-native-reanimated/plugin', // at the end
-];
+   // ...
+   'react-native-reanimated/plugin', // it's placed at the end
+]
 ```
 
 ```sh
