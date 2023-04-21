@@ -64,7 +64,7 @@ import {
   Col,
 } from '@hadnet/react-native-skeleton';
 
-export default function App() {
+export default function MySkeletonComp() {
   return (
     <View style={styles.container}>
       <View style={styles.wrapper}>
